@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/YOUR_GITHUB_USERNAME/sample-html-k8s-project.git'
+                git branch: 'main', url: 'https://github.com/vibincholayil/sample-webapplication.git'
             }
         }
 
